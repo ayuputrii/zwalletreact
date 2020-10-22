@@ -1,0 +1,1419 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+/* Start Header Nav */
+.header-nav {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 0px 0px 25px 25px;
+    height: 110px;
+    margin-bottom: 60px;
+}
+
+.h-zwallet {
+    font-family: Nunito Sans;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 35px;
+    color: #6379F4;
+}
+
+.h-nav-right {
+    float: right;
+}
+
+.h-img-nav {
+    margin: 2px 20px 20px 20px;
+}
+
+.h-name {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 10px;
+    margin-left: 0px;
+}
+
+.h-nav-bell {
+    margin: 16px 20px 20px 20px;
+}
+
+@media screen and (min-width: 240px) and (max-width: 1024px) {
+    .header-nav {
+        background: #fff;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 0px 0px 25px 25px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .h-zwallet {
+        text-align: center;
+    }
+    .h-img-nav {
+          margin: 2px 40px 40px 20px;
+    }
+    .h-name {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        line-height: 10px;
+        margin-left: 0px;
+    }
+    .h-nav-right {
+      margin-left: 20px;
+    }
+    .h-nav-bell {
+        margin: 16px 20px 20px 20px;
+    }
+}
+
+@media screen and (min-width: 240px) and (max-width: 1024px) {
+    .h-img-nav {
+        float: unset;
+        display: block;
+        margin: auto;
+    }
+}
+/* End Header Nav */
+
+/* Start Home */
+.bg-home {
+    background-color: #6379F4 !important;
+    border-radius: 20px;
+    height: 150px;
+}
+
+.shadow-sm {
+    border-radius: 20px;
+}
+
+.his-parap {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #E0E0E0;
+}
+
+.his-money {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: -0.0px;
+    margin-bottom: 35px;
+    color: #FFFFFF;
+}
+
+.his-phone {
+    margin-left: 10px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #DFDCDC;
+}
+
+.transfer {
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+}
+
+.topup {
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+}
+
+.aa {
+    float: left;
+}
+
+.bg-button {
+    float: right;
+}
+
+.his-top-button {
+    margin-left: 70px;
+    margin-right: 30px;
+    padding-top: 8px;
+    float: right;
+    margin-top: 20px;
+    width: 120px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.his-bottom-button:hover {
+    list-style-type: unset !important;
+    text-decoration: unset !important;
+}
+
+.shadow-sm {
+    border-radius: 20px;
+}
+
+.income {
+    margin-top: 50px;
+    margin-left: 30px;
+    float: left;
+}
+
+
+.expense {
+    margin-top: 50px;
+    margin-right: 30px;
+    float: right;
+}
+
+.parap-income {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #6A6A6A
+}
+
+.money-income {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3A3D42;
+}
+
+
+.his-middle-one {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    margin-top: 10px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3A3D42;
+    height: 410px;
+}
+
+.his-middle-two {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    margin-top: 10px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3A3D42;
+    padding-left: 20px !important;
+    padding-top: 20px !important;
+    height: 410px;
+}
+
+.see-all {
+    text-decoration: unset !important;
+    float: right;
+    padding-right: 30px;
+}
+
+.h-status-money3 {
+    float: right !important;
+}
+
+.h-status-money4 {
+    float: right !important;
+}
+
+.h-status-money3 {
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: right;
+    color: #1EC15F;
+    padding-right: 30px;
+}
+
+.h-status-money4 {
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: right;
+    color: #FF5B37;
+    padding-right: 30px;
+}
+
+.transaction-his {
+    display: inline;
+}
+
+.h-imgH {
+    float: left;
+    width: 46px;
+    height: 56px;
+    margin-top: 10px;
+}
+
+.name-home {
+    padding-top: 10px;
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4D4B57;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.status-data {
+    margin-top: 10px;
+    font-family: Nunito Sans;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 10px;
+    color: #4D4B57;
+    margin-left: 60px;
+}
+
+.see-all {
+    text-decoration: unset !important;
+    float: right;
+    padding-right: 30px;
+}
+
+.h-status-money3 {
+    float: right !important;
+    margin-top: 20px;
+}
+
+.h-status-money4 {
+    float: right !important;
+    margin-top: 20px;
+}
+
+.h-status-money3 {
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: right;
+    color: #1EC15F;
+    padding-right: 30px;
+}
+
+.h-status-money4 {
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: right;
+    color: #FF5B37;
+    padding-right: 30px;
+}
+
+@media (min-width:240px) and (max-width:1024px){
+  .bg-home {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .shadow-sm {
+    border-radius: 20px;
+  }
+  .his-parap {
+    text-align: center;
+    color: #E0E0E0;
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 575px) {
+    .bg-home {
+        margin-top: 10px;
+    }
+    .bg-button {
+        margin-top: 40px;
+        border-radius: 20px;
+        background-color: #6379F4;
+    }
+    .his-parap {
+        text-align: center;
+    }
+    .his-money {
+        text-align: center;
+    }
+    .his-phone {
+        text-align: center;
+    }
+    .his-top-button {
+        display: block;
+        margin: auto !important;
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+        /* margin-right: 10px !important; */
+        float: unset !important;
+    }
+    .heading-tran {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 25px;
+        color: #3A3D42;
+    }
+}
+/* End Home */
+
+/* Start Profile */
+.card4{
+  background: #E5E8ED;
+  border-radius: 10px;
+  background-image: url('../img/arrow-left.svg');
+  background-repeat: no-repeat;
+  background-position: 310px;
+  margin-left: 185px;
+  margin-bottom: 20px;
+  width: 90px;
+  height: 64px;
+  line-height: 70px;
+  color: #4D4B57;
+}
+
+.card5{
+  background: #E5E8ED;
+  border-radius: 10px;
+  margin-left: 185px;
+  margin-bottom: 25px;
+  width: 80px;
+  height: 64px;
+  line-height: 70px;
+  color: #4D4B57;
+}
+
+.samuel{
+  margin-left: 300px;
+}
+
+.req{
+  margin-left: 100px;
+}
+.r25{
+  margin-top: 20px;
+  margin-left: 335px;
+}
+
+.editt{
+  margin-top: -2px;
+  margin-bottom: 7px;
+  margin-left: 326px;
+  color: #4D4B57;
+}
+
+.pen{
+  margin-left: 220px;
+  height: 10px;
+  border: 1px solid #7A7886;
+  border: none;
+}
+
+.nsamuel{
+  margin-left: 275px;
+  font-family: Nunito Sans;
+  color: #4D4B57;
+  font-weight: bold;
+  font-size: 24px;
+}
+.nnumber{
+  margin-left: 265px;
+}
+.managePhone{
+  float: right;
+  color: #6379F4;
+}
+@media (min-width:240px) and (max-width:1024px){
+  .card4{
+    background-position: 220px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+    height: 70px;
+    line-height: 70px;
+    color: #4D4B57;
+  }
+
+  .card5{
+    margin-left: 0px;
+    margin-bottom: 40px;
+    height: 70px;
+    line-height: 70px;
+    color: #4D4B57;
+  }
+
+  .req{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .r25{
+    margin-top: 10px;
+    margin-left: 120px;
+  }
+
+  .editt{
+    margin-top: -1.90px;
+    margin-left: 115px;
+  }
+
+  .pen{
+    margin-left: 90px;
+  }
+
+  .nsamuel{
+    margin-left: 60px;
+    font-family: Nunito Sans;
+    color: #4D4B57;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .nnumber{
+    margin-left: 50px;
+    margin-bottom: 30px;
+  }
+
+}
+/* End Profile */
+
+/* Start PersonalInformation */
+.d-Personal{
+  font-family: Nunito Sans;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  background: #FFFFFF;
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.detPI{
+  margin-left: 20px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7A7886;
+}
+
+.cardP {
+    margin-top: 10px;
+    margin-bottom: 18px;
+    margin-left: 20px;
+    background: #FFFFFF;
+    box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.h-personal{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 2px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 3px;
+  color: #7A7886;
+}
+
+.h-pname{
+  margin-left: 3px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #514F5B;
+
+}
+
+@media (min-width:240px) and (max-width:1024px){
+  .d-Personal{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .cardP {
+    margin-left: 10px;
+  }
+
+}
+/* End PersonalInformation */
+
+/* Start ChangePassword*/
+
+.h-ChangePassword {
+    font-family: Nunito Sans;
+    background: #ffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+.d-change {
+    margin-left: 10px;
+    font-family: Nunito Sans;
+    background: #ffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#type {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #7a7886;
+    margin-left: 30px;
+}
+
+#lock:hover {
+    border-bottom: #6379f4 solid 4px;
+}
+
+#lock {
+    background-image: url('../img/lock.png');
+    background-repeat: no-repeat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    color: #3a3d42;
+}
+
+#tlp:hover {
+    border-bottom: #6379f4 solid 4px;
+}
+
+#tlp {
+    background-image: url('../img/tlp.png');
+    background-repeat: no-repeat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3a3d42;
+}
+
+.bg-gray {
+    margin-bottom: 10px;
+    height: 50px;
+    width: 356px;
+    background: #DADADA;
+    box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+    border-radius: 12px;
+    border: none;
+    color: #88888F;
+}
+
+@media (min-width: 240px){
+  .h-AllAmount {
+    margin-right: 10px;
+  }
+
+  .h-ChangePassword {
+      font-family: Nunito Sans;
+      background: #ffff;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+      border-radius: 25px;
+      margin-left : 20px;
+  }
+
+  .d-change {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .det-PI{
+    margin-left: 0px;
+  }
+
+  .bg-gray{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  #lock {
+    width: 50%;
+    padding: 6px 36px;
+    margin-right: 90px;
+    margin-left: 180px;
+    outline: none;
+    border-style: none;
+    border-bottom: grey solid 1px;
+  }
+
+  #tlp {
+    width: 50%;
+    padding: 6px 36px;
+    margin-right: 90px;
+    margin-left: 180px;
+    outline: none;
+    border-style: none;
+    border-bottom: grey solid 1px;
+  }
+}
+
+@media (max-width: 1024px){
+  .h-AllAmount {
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+
+  .h-ChangePassword {
+      font-family: Nunito Sans;
+      background: #ffff;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+      border-radius: 25px;
+      margin-left: 10px;
+  }
+
+  .h-change{
+      margin-left: 10px;
+  }
+
+  #lock {
+      width: 100%;
+      outline: none;
+      border-style: none;
+      border-bottom: grey solid 1px;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+}
+
+
+/* End ChangePassword */
+
+/* Start ChangePin */
+.h-ChangePin {
+    font-family: Nunito Sans;
+    background: #ffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+#btn-border{
+    width: 50px;
+    height: 60px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 55px rgba(147, 147, 147, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 51px;
+    color: #3A3D42;
+    margin-top: 20px;
+}
+
+@media (min-width: 240px) and (max-width:1024px){
+  .h-ChangePin{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #btn-border{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 76px;
+    width: 48px;
+  }
+}
+/* End ChangePin */
+
+/* Start Search Receiver */
+.h-home {
+    margin-bottom: 30px;
+}
+
+.active {
+    margin-bottom: 20px;
+    border-left: 7px solid #6379F4;
+    margin-left: -16.20px;
+}
+
+.h-prof {
+    width: 38px;
+    height: 60px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+
+.h-ddashboard {
+    width: 38px;
+    height: 60px;
+    margin-left: 38px;
+    margin-bottom: 10px;
+}
+
+.h-arrow {
+    width: 38px;
+    height: 60px;
+    margin-left: 38px;
+    margin-bottom: 10px;
+}
+
+.h-plus {
+    width: 38px;
+    height: 60px;
+    margin-left: 38px;
+    margin-bottom: 10px;
+}
+
+.h-profile {
+    width: 38px;
+    height: 60px;
+    margin-left: 38px;
+    margin-bottom: 10px;
+}
+
+.h-logout {
+    width: 38px;
+    height: 60px;
+    margin-left: 38px;
+    margin-bottom: 10px;
+}
+
+.dashboard {
+    margin-top: 60px;
+}
+
+.h-dashboard {
+    margin-left: 15px;
+    width: 91px;
+    height: 31px;
+    font-family: Nunito Sans;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: rgba(58, 61, 66, 0.8);
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.h-dashboard:hover {
+    color: #6379F4;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.h-active{
+  margin-left: 15px;
+  font-family: Nunito Sans;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.d-home {
+    margin-left: 10px;
+    font-family: Nunito Sans;
+    background: #ffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.h-homee{
+   line-height: 220px;
+}
+
+.h-Alldash {
+    margin-left: 10px;
+    font-family: Nunito Sans;
+    background: #ffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+}
+
+.d-AllSearch {
+    margin-left: 20px;
+    font-family: Nunito Sans;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    background: #FFFFFF;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.card1 {
+    margin-bottom: 20px;
+}
+
+.s-search {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.s-rec {
+    margin-left: 20px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 60px;
+    color: #3A3D42;
+}
+
+.s-week {
+    margin-left: 20px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 50px;
+    color: #3A3D42;
+}
+
+.iconn {
+    background-image: url('../img/search.png');
+    background-repeat: no-repeat;
+    background-position: 36px 14px;
+    background-size: 30px;
+}
+
+#input-search {
+    background: rgba(58, 61, 66, 0.1);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    position: 10px;
+}
+
+.s-fsearch {
+    font-family: Nunito Sans;
+    border: 20px solid #3A3D42;
+    box-shadow: 0 0 0 1px #3A3D42;
+    color: #3A3D42;
+}
+
+.h-img-search {
+    width: 60px;
+    height: 56px;
+    float: left;
+    margin: 12px;
+    left: 10px;
+}
+
+.h-name-search {
+    padding-top: 15px;
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #514F5B;
+}
+
+.h-status-search {
+    font-family: Nunito Sans;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 9px;
+    color: #7A7886;
+}
+
+.card2 {
+    margin-top: 10px;
+    margin-bottom: 18px;
+    margin-left: 20px;
+    background: #FFFFFF;
+    box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.transfer-money {
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3A3D42;
+}
+
+@media (min-width: 240px) and (max-width:1024px) {
+  .d-home {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .h-home {
+    line-height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .d-AllSearch {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .card2{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .s-rec{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .s-week{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .iconn {
+    background-repeat: no-repeat;
+    background-position: 22px 8px;
+  }
+
+  #input-search {
+    background: rgba(58, 61, 66, 0.1);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+}
+
+/* End Search Receiver */
+
+/* Start Confirmation */
+
+.card7 {
+    width: 90px;
+    height: 85px;
+    left: 2%;
+    right: 0%;
+    margin-top: 0%;
+    background: #FFFFFF;
+    box-shadow: 9px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+.c-Pconfirm {
+    width: 56px;
+    height: 56px;
+    float: left;
+    margin-top: 13px;
+    margin-left: 10px;
+    left: 10px;
+}
+
+.c-Name {
+    color: #4D4B57;
+    font-family: Nunito Sans;
+    font-weight: bold;
+    line-height: 55px;
+    margin-left: 80px;
+    height: 25px;
+}
+
+.c-No {
+    font-family: Nunito Sans;
+    font-weight: normal;
+    margin-left: 80px;
+    color: #7A7886;
+}
+
+.s-details {
+    margin-top: 10px;
+}
+.s-det {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #3A3D42;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.card8 {
+    width: 90px;
+    height: 80px;
+    left: 2%;
+    right: 0%;
+    margin-top: 0%;
+    background: #FFFFFF;
+    box-shadow: 9px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.c-name {
+    padding-top: 10px;
+    font-family: Nunito Sans;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #514F5B;
+}
+
+.c-status{
+  color: #4D4B57;
+  font-family: Nunito Sans;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+#backTo{
+  background: #6379F4;
+  box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+  border-radius: 12px;
+  color: #FFFFFF;
+  border: none;
+  margin-right: 10px;
+}
+
+#backTo2{
+  background: rgba(99, 121, 244, 0.15);
+  box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+  border-radius: 12px;
+  color: #4D4B57;
+  border: none;
+  margin-right: 10px;
+}
+
+#backTo3{
+  background: rgba(99, 121, 244, 0.15);
+  box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+  border-radius: 12px;
+  color: #4D4B57;
+  border: none;
+  margin-right: 10px;
+}
+.pin{
+  font-family: Nunito Sans;
+}
+.pin{
+  font-family: Nunito Sans;
+}
+
+#modal-btn{
+  display: none;
+  left: 20px;
+  right: 20px;
+  margin-right: 10px;
+  background-color: #ffffff;
+  color: black;
+  height: 100px;
+  color: black;
+}
+
+/* End Confirmation */
+
+/* Start Topup */
+
+.h-numberr {
+    margin-left: 10px;
+    margin-top: 19px;
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 15px;
+    height: 47px;
+    color: #6379F4;
+}
+@media(min-width:240px) and (max-width:1024px){
+  .h-numberr {
+      margin-left: 10px;
+      margin-bottom: 20px;
+      margin-top: 19px;
+      font-family: Nunito Sans;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 12px;
+      height: 45px;
+      color: #6379F4;
+  }
+}
+
+/* End Topup *
+
+/* Transaction */
+.h-money13 {
+    float: right;
+}
+
+.h-money13 {
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 70px;
+    text-align: right;
+    color: #1EC15F;
+}
+
+.h-money24 {
+    float: right;
+}
+
+.h-money24 {
+    font-family: Nunito Sans;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 70px;
+    text-align: right;
+    color: #FF5837;
+}
+/* End */
+/
+/* Start Input Amount Blank */
+
+.h-tmoney {
+    margin-top: 10px;
+}
+
+.h-AllAmount {
+    margin-left: 20px;
+    font-family: Nunito Sans;
+    background: #ffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+.transfer-money {
+    margin-left: 35px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    color: #3A3D42;
+}
+
+#name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #3a3d42;
+}
+
+#number {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 10px;
+    color: rgba(58, 61, 66, 0.9);
+}
+
+.card-tf{
+  margin-left: 30px;
+  height: 90px;
+}
+
+.bg {
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+.bg-link {
+    background: #6379f4;
+    border: none;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#type {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #7a7886;
+    margin-left: 30px;
+}
+
+#note:hover {
+    border-bottom: #6379f4 solid 6px;
+}
+
+#note {
+    background-image: url('../img/pen.png');
+    background-repeat: no-repeat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #3a3d42;
+}
+
+#continue {
+  text-decoration: none;
+  color: white;
+  width: 15%;
+}
+
+@media (min-width: 240px) {
+    .h-AllAmount {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .card-tf {
+        margin-top: 10px;
+        width: 40px;
+        margin-bottom: 20px;
+        background: #FFFFFF;
+        box-shadow: 9px 4px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 25px;
+        margin-left: 14px;
+    }
+
+    #note {
+        width: 50%;
+        right: 30px;
+        padding: 6px 36px;
+        margin-right: 90px;
+        margin-left: 180px;
+        outline: none;
+        border-style: none;
+        border-bottom: grey solid 1px;
+    }
+    #amount {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        outline: none;
+        border-style: none;
+        font-size: 35px;
+        font-weight: bold;
+        color: #6379f4;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-areas: "aside main main main" "aside main main main" "aside main main main";
+        gap: 30px;
+        width: 80%;
+        margin: 30px auto;
+    }
+    aside {
+        grid-area: aside;
+    }
+    main {
+        grid-area: main;
+    }
+    #continue {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .spacing br {
+        display: none;
+    }
+    .dashboard {
+        margin: 20px auto;
+    }
+    .section .main-container {
+        margin: 10px auto;
+    }
+    .navbar {
+        margin: auto;
+    }
+    .contact1 {
+        display: none;
+    }
+    #reserved {
+        font-size: 15px;
+        text-align: center;
+    }
+    #continue {
+        width: 100%;
+        margin-right: auto;
+    }
+
+    .card-tf{
+      margin-left: 0px;
+    }
+
+    #note {
+        width: 100%;
+        outline: none;
+        border-style: none;
+        border-bottom: grey solid 1px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+    }
+    #amount {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        outline: none;
+        border-style: none;
+        font-size: 35px;
+        font-weight: bold;
+        color: #6379f4;
+    }
+    #reserved {
+        font-size: 15px;
+        text-align: center;
+    }
+}
+/* End Input Amount Blank */
+
+/* Start Footer */
+
+.contact1 {
+    display: none;
+    color: rgba(239, 239, 239, 0.9);
+}
+
+#footer-bar {
+    width: 100%;
+    background-color: #6379f4;
+}
+
+#reserved {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(239, 239, 239, 0.9);
+}
+
+@media (max-width: 240px) {
+    .contact1 {
+        display: none;
+    }
+    #reserved {
+        font-size: 15px;
+        text-align: center;
+    }
+    #reserved {
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+
+/* End Footer */
