@@ -1,13 +1,13 @@
 import React from 'react';
 
 import Image from 'react-bootstrap/Image';
-import { Link, useHistory } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import '../../assets/css/style.css';
 
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { AuthLogin } from "../../Redux/Action/Auth";
-import { isLogin } from "../../utils";
+// import { isLogin } from "../../utils";
 // import { login } from "../../utils";
 
 const Login = (props) => {

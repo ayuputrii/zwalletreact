@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Image from 'react-bootstrap/Image';
 
-import Axios from "axios";
 import { GetUsers } from "../Redux/Action/Users";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -11,10 +10,10 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 const HeaderNav = (props) => {
     const dispatch = useDispatch()
 
-    const {data, error} = useSelector((s)=> s.Users)
+    const {data } = useSelector((s)=> s.Users)
     const Auth = useSelector((s)=> s.Auth)
 
-    React.useEffect(() => {
+    useEffect(() => {
       dispatch(GetUsers({
        page: 1,
        limit: 1,

@@ -14,7 +14,7 @@ import '../../assets/css/style1.css';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 function Confirmation(props) {
-    const [redux, setRedux] = useState({
+    const [redux] = useState({
       amount : props.location.state.amount,
       balance_left: props.location.state.balance_left,
       datetime: props.location.state.datetime,
@@ -25,7 +25,7 @@ function Confirmation(props) {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    // const handleShow = () => setShow(true);
 
     const push = () => {
       Axios.post("http://localhost:5000/api/v1/transfer",

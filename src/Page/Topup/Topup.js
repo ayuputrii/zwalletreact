@@ -2,11 +2,10 @@ import React from "react";
 
 import HeaderNav from '../../Components/HeaderNav';
 import Image from 'react-bootstrap/Image';
-import Axios from 'axios';
 
 import { Link, useHistory } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { AuthLogin, AuthLogout } from "../../Redux/Action/Auth";
+import { AuthLogout } from "../../Redux/Action/Auth";
 import { GetTopup } from "../../Redux/Action/Users";
 
 
@@ -17,7 +16,7 @@ const Topup = () => {
   const history = useHistory();
   const dispatch =  useDispatch();
 
-  const {data, error} = useSelector((s)=> s.Users)
+  const {data} = useSelector((s)=> s.Users)
   const Auth = useSelector((s)=> s.Auth)
 
   React.useEffect(() => {

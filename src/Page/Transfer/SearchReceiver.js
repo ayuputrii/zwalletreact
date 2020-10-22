@@ -13,7 +13,6 @@ import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import TestComp from "./TestComp"
 
 const SearchReceiver = () => {
-  const [query, setQuery] = React.useState("");
   const [_state, _setState] = useState({
     transfer: []
   })

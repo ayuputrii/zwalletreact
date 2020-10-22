@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react"
+import React, { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { useHistory } from "react-router-dom"
 import { GetUsers, DeleteUsers} from "../../../Redux/Action/Users"
@@ -6,7 +6,7 @@ import { GetUsers, DeleteUsers} from "../../../Redux/Action/Users"
 import HeaderNav from '../../../Components/HeaderNav';
 import Image from 'react-bootstrap/Image';
 import { Link } from "react-router-dom";
-import { AuthLogin, AuthLogout } from "../../../Redux/Action/Auth";
+import { AuthLogout } from "../../../Redux/Action/Auth";
 
 import '../../../assets/css/style1.css';
 import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css';

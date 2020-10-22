@@ -72,7 +72,6 @@ export const GetUsers = (fields) => {
     })
     .then((res) => {
       const data = res.data.data
-      console.log(data, 'testToken')
       dispatch(UsersSuccess(data))
     })
     .catch((err) => {
@@ -84,7 +83,7 @@ export const GetUsers = (fields) => {
 
 export const DeleteUsers = (fields) => {
   return(dispatch) => {
-    dispatch(UsersRequest())
+    dispatch(UserDeleteRequest())
     return Axios({
       method: 'DELETE',
       url: `http://localhost:5000/api/v1/profile/${fields.id_profile}`,
@@ -94,12 +93,11 @@ export const DeleteUsers = (fields) => {
     })
     .then((res) => {
       const data = res.data
-      console.log(data, 'delete')
-      dispatch(UsersSuccess(data))
+      dispatch(UserDeleteSuccess(data))
     })
     .catch((err) => {
       const message = err.message
-      dispatch(UserError(message))
+      dispatch(UserDeleteError(message))
     })
   }
 }
@@ -119,7 +117,6 @@ export const EditUser = (fields) => {
             }
         }).then((res)=> {
             const data = res.data.data
-            console.log(data)
             dispatch(UserEditSuccess(data))
             fields.history.push('/Admin')
         }).catch((err)=> {
@@ -142,7 +139,6 @@ export const GetTopup = (fields) => {
     })
     .then((res) => {
       const data = res.data.data
-      console.log(data, 'testToken')
       dispatch(UsersSuccess(data))
     })
     .catch((err) => {
@@ -165,7 +161,6 @@ export const GetTransfer = (fields) => {
     })
     .then((res) => {
       const data = res.data.data
-      console.log(data, 'testToken')
       dispatch(UsersSuccess(data))
     })
     .catch((err) => {

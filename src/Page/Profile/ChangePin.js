@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 
 import HeaderNav from '../../Components/HeaderNav';
 import Image from 'react-bootstrap/Image';
-import Axios from 'axios';
+// import Axios from 'axios';
 
 import { Link, useHistory } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import { AuthLogin, AuthLogout } from "../../Redux/Action/Auth";
+import { useDispatch } from "react-redux";
+import { AuthLogout } from "../../Redux/Action/Auth";
 
 
 import '../../assets/css/style1.css';
@@ -19,25 +19,25 @@ function ChangePin() {
         dispatch(AuthLogout())
         history.replace("/login");
       };
-    const [pinConfrim, setPinConfirm] = useState("");
-
-    const [_submit, _setSubmit] = useState("")
-    const onChangePin = (e) => {
-      setPinConfirm(e.target.value)
-    }
-    const onSubmit = () => {
-      _setSubmit({
-        pinConfrim: pinConfrim,
-      })
-    }
-    const changepin = () => {
-      Axios.patch("http://localhost:5000/api/v1/profile", {
-          pinConfrim: pinConfrim,
-      })
-      .then((response)=>{
-        console.log(response)
-      })
-    }
+    // const [pinConfrim, setPinConfirm] = useState("");
+    //
+    // const [_submit, _setSubmit] = useState("")
+    // const onChangePin = (e) => {
+    //   setPinConfirm(e.target.value)
+    // }
+    // const onSubmit = () => {
+    //   _setSubmit({
+    //     pinConfrim: pinConfrim,
+    //   })
+    // }
+    // const changepin = () => {
+    //   Axios.patch("http://localhost:5000/api/v1/profile", {
+    //       pinConfrim: pinConfrim,
+    //   })
+    //   .then((response)=>{
+    //     console.log(response)
+    //   })
+    // }
     return (
       <div className="ChangePin">
         <HeaderNav title = "Zwallet"/>

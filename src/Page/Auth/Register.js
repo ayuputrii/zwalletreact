@@ -10,7 +10,7 @@ function Register() {
     const [emailReg, setEmailReg] = useState("");
     const [passwordReg, setPasswordReg] = useState("");
 
-    const [_submit, _setSubmit] = useState("")
+    const [_setSubmit] = useState("")
     const onChangeUsernameReg = (e) => {
       setUsernameReg(e.target.value)
     }

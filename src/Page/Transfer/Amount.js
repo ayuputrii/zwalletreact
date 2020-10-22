@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 
 import HeaderNav from '../../Components/HeaderNav';
 import Image from 'react-bootstrap/Image';
@@ -11,9 +11,9 @@ import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 const Amount = (props) => {
   const [amount, setAmount] = useState(null);
-  const [balance_left, setBalance_left] = useState(props.location.state.balance_left);
-  const [name_receiver, setName_receiver] = useState(props.location.state.name_receiver);
-  const [nomor_receiver, setNomor_receiver] = useState(props.location.state.nomor_receiver);
+  const [balance_left] = useState(props.location.state.balance_left);
+  const [name_receiver] = useState(props.location.state.name_receiver);
+  const [nomor_receiver] = useState(props.location.state.nomor_receiver);
   const [notes, setNotes] = useState(props.location.state.notes)
 
   const onChangeAmount = (e) => {

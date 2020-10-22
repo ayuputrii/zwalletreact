@@ -11,7 +11,7 @@ import '../../assets/css/style1.css';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 const Status = () => {
-  const [state, setState] = useState({
+  const [setState] = useState({
     profile: []
   })
 

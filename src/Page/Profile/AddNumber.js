@@ -4,8 +4,8 @@ import HeaderNav from '../../Components/HeaderNav';
 import Image from 'react-bootstrap/Image';
 
 import { Link, useHistory } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import { AuthLogin, AuthLogout } from "../../Redux/Action/Auth";
+import { useDispatch } from "react-redux";
+import { AuthLogout } from "../../Redux/Action/Auth";
 
 
 import '../../assets/css/style1.css';

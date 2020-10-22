@@ -1,14 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React, {useEffect} from "react";
 
 import HeaderNav from '../../Components/HeaderNav';
 
-import Axios from "axios";
 import Image from 'react-bootstrap/Image';
 
 import { Link, useHistory } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { AuthLogout } from "../../Redux/Action/Auth";
-import { GetUsers, GetTransfer } from "../../Redux/Action/Users";
+import { GetTransfer } from "../../Redux/Action/Users";
 
 import '../../assets/css/style1.css';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
@@ -17,10 +16,10 @@ const Dashboard  = (props) => {
     const history = useHistory();
     const dispatch =  useDispatch();
 
-    const {data, error} = useSelector((s)=> s.Users)
+    const {data} = useSelector((s)=> s.Users)
     const Auth = useSelector((s)=> s.Auth)
 
-    React.useEffect(() => {
+    useEffect(() => {
       dispatch(GetTransfer({
        page: 1,
        limit: 1,
@@ -71,8 +70,8 @@ const Dashboard  = (props) => {
                     <div className="shadow-sm bg-home">
                         <div className="col-xs-12 col-sm-6 col-md-6 aa">
                             <div className="his-parap">Balance</div>
-                            <h3 className="his-money">Rp.{data[0].amount}</h3>
-                            <div className="his-phone">+ {data[0].nomor_receiver}</div>
+                            <h3 className="his-money">Rp.{data.amount}</h3>
+                            <div className="his-phone">+ {data.nomor_receiver}</div>
                         </div>
                         <div className="col-xs-12 col-sm-6 col-md-6 bg-button">
                             <Link to="/SearchReceiver" className="his-top-button">

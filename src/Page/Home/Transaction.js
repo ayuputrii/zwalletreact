@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 
 import HeaderNav from '../../Components/HeaderNav';
-import Axios from 'axios';
 import Image from 'react-bootstrap/Image';
 
 import { Link, useHistory } from "react-router-dom";
@@ -16,10 +15,10 @@ const Transaction = (props) => {
     const history = useHistory();
     const dispatch =  useDispatch();
 
-    const {data, error} = useSelector((s)=> s.Users)
+    const {data} = useSelector((s)=> s.Users)
     const Auth = useSelector((s)=> s.Auth)
 
-    React.useEffect(() => {
+    useEffect(() => {
       dispatch(GetTransfer({
        page: 1,
        limit: 2,
@@ -31,9 +30,6 @@ const Transaction = (props) => {
       dispatch(AuthLogout())
       history.replace("/login");
     };
-    const [state, setState] = useState({
-      transfer: []
-    })
     return(
       <div className="Transaction">
         <HeaderNav title = "Zwallet"/>
